@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    transition: .9s;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d71e5f;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 24px;
+    width: 550px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #262626;
+    text-transform: uppercase;
+}
+h2{
+    padding-bottom: 20px;
+}
+
+.cookie-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#cookie-type {
+    font-weight: bold;
+    font-size: 20px;
+    color: #d71e5f;
+    margin-bottom: 10px;
+}
+
+/* Поле ввода */
+input[type="text"] {
+    width: 430px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    background-color: #d71e5f;
+    border: 1px solid #d71e5f;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    color: #d71e5f;
+    background: transparent;
+    transform: scale(1.1);
+
+}
